@@ -1,0 +1,37 @@
+{
+    "name": "jinexus-framework/jinexus-mvc",
+    "type": "component",
+    "description": "MVC component from JiNexus Framework",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "jinexus",
+        "mvc"
+    ],
+    "homepage": "https://github.com/jinexus-framework/jinexus-mvc",
+    "authors": [
+        {
+            "name": "Jimvirle E. Calago",
+            "email": "jimvirle@gmail.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "jinexus-framework/jinexus-config": "^1.0.0",
+        "jinexus-framework/jinexus-http": "^1.0.0",
+        "jinexus-framework/jinexus-module-manager": "^1.0.0",
+        "jinexus-framework/jinexus-route": "^1.0.0",
+        "filp/whoops": "^2.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JiNexus\\Mvc\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JiNexus\\Mvc\\": "test/"
+        }
+    }
+}
